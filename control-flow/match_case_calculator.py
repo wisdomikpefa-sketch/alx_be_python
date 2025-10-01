@@ -8,4 +8,4 @@ if operation == '*':
     result = num1 * num2
     print("Result:", result)
 else:
-    print("Invalid operation. Only '*' is supported.")
+    print("Cannot divide by zero.")
