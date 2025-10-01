@@ -1,24 +1,11 @@
-# Simple calculator program
+# Simple multiplication calculator
 
-# Take inputs from the user
-num1 = float("10")
-num2 = float("5")
-operation = input("Choose the operation (*, /, +, -): ")
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+operation = input("Choose the operation (*, ): ")
 
-# Perform the operation
 if operation == '*':
     result = num1 * num2
-elif operation == '/':
-    if num2 != 0:
-        result = num1 / num2
-    else:
-        result = "Cannot divide by zero."
-elif operation == '+':
-    result = num1 + num2
-elif operation == '-':
-    result = num1 - num2
+    print("Result:", result)
 else:
-    result = "Invalid operation."
-
-# Print the result
-print("Result:", result)
+    print("Invalid operation. Only '*' is supported.")
