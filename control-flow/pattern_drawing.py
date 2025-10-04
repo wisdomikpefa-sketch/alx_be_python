@@ -1,4 +1,4 @@
-size = int(input("f the user inputs 4, the output should be: "))
+size = int(input("Enter the size of the pattern: "))
 row = 0
 
 while row < size:
