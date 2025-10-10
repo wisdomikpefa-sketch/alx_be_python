@@ -6,3 +6,5 @@ projected_savings = monthly_savings * 12 + (monthly_savings * 0.05 * 12)
 
 print("your monthly_savings are:", monthly_savings)
 print("projected savings after one year, with interest, is", projected_savings)
+
+age should be
