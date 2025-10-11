@@ -1,10 +1,10 @@
 # shopping_list_manager.py
 
-def main():
+def shopping_list():
     shopping_list = []
 
     while True:
-        # Display the menu
+        # shopping_list.
         print("\nShopping List Menu:")
         print("1. Add item")
         print("2. Remove item")
@@ -46,4 +46,4 @@ def main():
             print("Invalid choice. Please enter a number between 1 and 4.")
 
 if __name__ == "__main__":
-    main()
+    shopping_list()
