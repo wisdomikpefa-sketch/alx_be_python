@@ -2,10 +2,7 @@ def perform_operation():
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
     operation = input("Enter the operation (add, subtract, multiply, divide): ").strip().lower()
-
-    #result = num1 + num2 
-    #print(f"Result: {result}")
-
+    
     if operation == "add":
         result = num1 + num2
         print(f"Result: {result}")
@@ -24,6 +21,3 @@ def perform_operation():
         else:
             result = num1 / num2
             print(f"Result: {result}")
-
-# if __name__ == "__main__":
-perform_operation()
