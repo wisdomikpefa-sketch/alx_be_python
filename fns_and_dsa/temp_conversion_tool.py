@@ -1,10 +1,11 @@
 # temp_conversion_tool.py
+#fahrenheit_to_celsius_factor
+#celsius_to_fahrenheit_factor
 
 # Global conversion factors
-
 FAHRENHEIT_OFFSET = 32
-FAHRENHEIT_TO_CELSIUS_FACTOR = 9 / 5
-CELSIUS_TO_FAHRENHEIT_FACTOR = 5 / 9
+FAHRENHEIT_SCALE = 9 / 5
+CELSIUS_SCALE = 5 / 9
 
 def celsius_to_fahrenheit_factor(celsius):
     """Convert Celsius to Fahrenheit using global variables."""
