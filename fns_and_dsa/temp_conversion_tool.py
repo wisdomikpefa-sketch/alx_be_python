@@ -1,4 +1,4 @@
-# temp_conversion_tool.py('fahrenheit_to_celsius_factor, celsius_to_fahrenheit_factor')
+# temp_conversion_tool.py
 
 # Global conversion factors
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
